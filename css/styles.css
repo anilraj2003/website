@@ -63,10 +63,12 @@ a{
 .greet{
   padding-top: 20%;
   text-align: left;
+  clear: right;
 }
 .intro_2{
     color: #66BFBF;
     text-align: left;
+    clear: right;
 }
 hr {
     border-style: none;
@@ -107,72 +109,3 @@ hr {
   padding-right: 1.5%;
   margin-left: 5%;
 }
-/* Common Block elements(which blocks the whole row) are:
-1. Paragraphs
-2. Headers
-3. Divisions
-4. list and List Items
-5. Forms
-
- */
-
-/*
-
-Inline Elements: Which allows other elements to sit next to it
-                 but do not allow change in its display dimentions
-
-Block Elements: Which doesn't allow other elements to sit next to it
-                but are flexible in terms of display dimentions
-
-Inline-Block Elements: which allow both - flexiblity in dimentions
-                                        - allowance to sit near it on same line
-
-None: It miracally removes the element
- */
-
-/*
- Rules of predefined styling:
-
-1. Content is everything: the box size will be according to
-the size of the Content
-
-2. Order comes from code: Elements come on website in the order you
-write it in code
-
-3. Children sits on Parents: if we make a div and under it we make a
-h1 tag then the h1 will be displayed over the div and that as compared
-div is more near to computer and is far from the user and for the h1
-it's vice versa And if you wanted to change it rather going with the
-default value you can use the "position" in css...
-has 4 options:
-              1. Static ( Default value as in HTML )
-
-              2. Relative ( Relative to default value ,Remember one thing
-              relative of one doesn't effect the positions of any other part )
-                a. left:50px (shifts the thing 50px from left margin to right)
-                b. right:50px (shifts the thing 50px from right margin to left)
-                c. top:50px (shifts the thing 50px from bottom margin to top)
-                d. bottom:50px (shifts the thing 50px from top margin to bottom)
-
-              3. Absolute (positions reletive to it's Parent container and not
-              the relative to any other part. If you change it's position here
-              it actually gets deleted from there and is put to new location
-              and thus affect the positions of any other part)
-                a. left:50px (shifts the thing 50px from left margin to right)
-                b. right:50px (shifts the thing 50px from right margin to left)
-                c. top:50px (shifts the thing 50px from bottom margin to top)
-                d. bottom:50px (shifts the thing 50px from top margin to bottom)
-
-              4. Fixed: It doesn't let the thing move even on scrolling of website
-
-
-
-
-
-
-
-
-
-
-
- */
